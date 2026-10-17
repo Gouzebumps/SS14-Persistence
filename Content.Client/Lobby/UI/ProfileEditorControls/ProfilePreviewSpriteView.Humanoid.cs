@@ -29,7 +29,11 @@ public sealed partial class ProfilePreviewSpriteView
             return;
 
         EntMan.System<SharedVisualBodySystem>().ApplyProfileTo(PreviewDummy, humanoid);
+<<<<<<< HEAD
         EntMan.System<HumanoidProfileSystem>().ApplyProfileTo(PreviewDummy, humanoid); // Scav
+=======
+        EntMan.System<HumanoidProfileSystem>().ApplyProfileTo(PreviewDummy, humanoid); // Persistence: Sexed displacements are applied on character screen
+>>>>>>> origin/staging-stable
     }
 
     /// <summary>
@@ -55,7 +59,11 @@ public sealed partial class ProfilePreviewSpriteView
             var dummy = _prototypeManager.Index(humanoid.Species).DollPrototype;
             PreviewDummy = EntMan.SpawnEntity(dummy, MapCoordinates.Nullspace);
             EntMan.System<SharedVisualBodySystem>().ApplyProfileTo(PreviewDummy, humanoid);
+<<<<<<< HEAD
             EntMan.System<HumanoidProfileSystem>().ApplyProfileTo(PreviewDummy, humanoid); // Scav
+=======
+            EntMan.System<HumanoidProfileSystem>().ApplyProfileTo(PreviewDummy, humanoid); // Persistence: Sexed displacements are applied on character screen
+>>>>>>> origin/staging-stable
         }
         else
         {
