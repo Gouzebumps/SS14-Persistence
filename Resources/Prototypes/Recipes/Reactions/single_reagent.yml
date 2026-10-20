@@ -59,6 +59,7 @@
   products:
     Holywater: 1
 
+<<<<<<< HEAD
 - type: reaction
   id: Hivarol
   requiredMixerCategories:
@@ -95,3 +96,5 @@
       amount: 1
   products:
     Water: 1
+=======
+>>>>>>> origin/staging-stable

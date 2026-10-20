@@ -115,8 +115,14 @@
   tier: 1
   cost: 3750
   recipeUnlocks:
+<<<<<<< HEAD
     ThermomachineFreezerMachineCircuitBoard: 4
     GasRecyclerMachineCircuitboard: 4
+=======
+  - ThermomachineFreezerMachineCircuitBoard
+  - GasRecyclerMachineCircuitboard
+  - EmergencyCoolingUnitRecipe
+>>>>>>> origin/staging-stable
 
 - type: technology
   id: RipleyAPLU
@@ -182,9 +188,16 @@
   tier: 2
   cost: 16250
   recipeUnlocks:
+<<<<<<< HEAD
     HellfireFreezerMachineCircuitBoard: 2
     PortableScrubberMachineCircuitBoard: 3
     HolofanProjector: 3
+=======
+  - HellfireFreezerMachineCircuitBoard
+  - PortableScrubberMachineCircuitBoard
+  - HolofanProjector
+  - CoolingUnitRecipe
+>>>>>>> origin/staging-stable
   technologyPrerequisites:
   - AtmosphericTech
 
